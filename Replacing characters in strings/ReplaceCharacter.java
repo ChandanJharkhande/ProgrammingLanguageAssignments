@@ -1,0 +1,10 @@
+public class ReplaceCharacter {
+    public static void main(String[] args) {
+        String str = "banana";
+
+        String result = str.replace('a', 'o');
+
+        System.out.println("Original String: " + str);
+        System.out.println("New String: " + result);
+    }
+}
